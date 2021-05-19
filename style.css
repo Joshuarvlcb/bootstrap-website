@@ -16,8 +16,12 @@
 .navbar-nav li a{
  text-transform: uppercase;
  text-decoration: none;
+ font-weight: bold;
 }
-
+.bold{
+  display: inline-block;
+  font-weight: bold;
+}
 .carousel-caption{
   position: absolute;
   top: 60%;
@@ -29,8 +33,9 @@
   background-image: linear-gradient(to right,rgba(0, 0, 0, 0.747),rgba(0, 0, 0, 0.774)),url(./img/yogo.jpg);
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 85vh;
   width: 100vw;
+  background-attachment: fixed;
 }
 
 .card-header{
